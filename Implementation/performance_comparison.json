@@ -1,0 +1,60 @@
+{
+  "protocols": [
+    "Noise Protocol",
+    "TLS 1.3",
+    "TLS 1.2",
+    "Unencrypted"
+  ],
+  "metrics": {
+    "handshake_time": {
+      "label": "Handshake Time (s)",
+      "values": [
+        0,
+        0.0029168128967285156,
+        0.0014216899871826172,
+        0.0006000995635986328
+      ],
+      "better": "lower"
+    },
+    "latency": {
+      "label": "Average Latency (ms)",
+      "values": [
+        0,
+        0.050263404846191406,
+        0.05397796630859375,
+        0.05955696105957031
+      ],
+      "better": "lower"
+    },
+    "throughput": {
+      "label": "Throughput (msg/s)",
+      "values": [
+        0,
+        27675.675675675677,
+        27946.190492054502,
+        32603.201007407868
+      ],
+      "better": "higher"
+    },
+    "cpu_usage": {
+      "label": "CPU Usage (%)",
+      "values": [
+        0,
+        -0.1,
+        -0.1,
+        -0.1
+      ],
+      "better": "lower"
+    },
+    "memory_usage": {
+      "label": "Memory Usage (MB)",
+      "values": [
+        0,
+        0.25,
+        0.03125,
+        0.0
+      ],
+      "better": "lower"
+    }
+  }
+}
